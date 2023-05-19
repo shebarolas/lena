@@ -1,0 +1,39 @@
+.informacion{
+    height: 20rem;
+    width:70rem;
+}
+.super{
+    padding-top:2rem;
+    display: grid;
+    place-items: center;
+    background-color: burlywood;
+}
+.heading{
+    text-align: center;
+}
+.general{
+    margin-top:1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+/* .imagess{
+    height: 15rem;
+    width: 30rem;
+    object-fit: cover;
+}
+.description{
+    display: grid;
+    place-items: center;
+} */
+.img{
+    height:15rem;
+}
+.background{
+    background-color: burlywood;
+    display: grid !important;
+    grid-template-rows: 1fr 2rem !important;
+}
+.padding{
+    padding: .5rem !important;
+}
