@@ -1,0 +1,21 @@
+.img{
+    height:15rem;
+}
+.background{
+    display: grid !important;
+    grid-template-rows: 1fr 5rem !important;
+
+}
+.padding{
+    padding: .5rem !important;
+}
+.btnColor{
+    width: 5rem !important;
+}
+.btns{
+    display: grid !important;
+    grid-template-columns: 1fr 10rem !important;
+}
+.grid{
+    display: grid !important;
+}

@@ -1,0 +1,9 @@
+.btnM{
+    padding : 0 !important;
+    width: 7rem !important;
+    margin: 0 !important;
+}
+.modalOverlay{
+    display: grid !important;
+    place-items: center !important;
+}
