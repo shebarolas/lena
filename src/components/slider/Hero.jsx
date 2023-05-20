@@ -12,7 +12,7 @@ export const Hero = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 2 }}
                         >
-                            Cafeteria y CabaÃ±as Eluney
+                            KÜMEKÜTRAL
                         </motion.h1>
                     </div>
                     <div className="textoR">

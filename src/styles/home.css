@@ -7,7 +7,7 @@
     padding-top:2rem;
     display: grid;
     justify-items: center;
-    background-color: burlywood;
+    background-color: rgba(255, 104, 104, 0.774);
     height: 37rem;
 }
 .heading{
@@ -19,12 +19,38 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
-/* .imagess{
-    height: 15rem;
-    width: 30rem;
-    object-fit: cover;
-}
-.description{
+.detalle{
+    position: relative;
+    height: 25rem;
+    width: 100%;
+    background-image: url(../imgs/lena1.jpg);
+    background-size: cover;
     display: grid;
+    justify-items: center;
+}
+.detalle:before{
+    position:absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color : rgba(0, 0, 0, 0.4);
+}
+.infor{
+    position: relative;
+    display: grid;
+    grid-template-rows: 7rem 1fr;
     place-items: center;
-} */
+    width:30rem;
+}
+.somos{
+    position: relative;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+}
+.text{
+    color: white;
+}

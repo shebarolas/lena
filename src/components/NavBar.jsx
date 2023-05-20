@@ -12,7 +12,7 @@ export const NavBar = () => {
                     <div className="nav">
                         <div className="options">
                             <span className='texto'>Inicio</span>
-                            <span className='texto'>Servicios</span>
+                            <span className='texto'>Productos</span>
                         </div>
                         <div className="logo">
                             <img src={logo} alt="" className="imgs" />
