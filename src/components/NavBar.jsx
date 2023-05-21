@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import { DrawBar } from './DrawBar'
 import '../styles/navbar.css';
 import logo from '../imgs/logo.jpg';
@@ -11,15 +11,15 @@ export const NavBar = () => {
                 <div className="content">
                     <div className="nav">
                         <div className="options">
-                            <span className='texto'>Inicio</span>
-                            <span className='texto'>Productos</span>
+                            <Link to={'/'} ><span className='texto'>Inicio</span></Link>
+                            <Link to={'/productos'} ><span className='texto'>Productos</span></Link>
                         </div>
                         <div className="logo">
                             <img src={logo} alt="" className="imgs" />
                         </div>
                         <div className="options">
-                            <span className='texto'>Nosotros</span>
-                            <span className='texto'>Contacto</span>
+                            <Link to={'/nosotros'}><span className='texto'>Nosotros</span></Link>
+                            <Link to={'/contacto'}><span className='texto'>Contacto</span></Link>
                         </div>
                         <DrawBar />
                     </div>
