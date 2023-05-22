@@ -1,0 +1,26 @@
+.product{
+    display: grid;
+    width: 100%;
+    height: 40rem;
+    background-color:gray;
+    justify-items: center;
+}
+.texP{
+    padding-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.prod{
+    display: grid;
+    grid-template-rows: 5rem 1fr;
+    height:auto;
+    width: 100%;
+    place-items: center;
+}
+.cardss{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}

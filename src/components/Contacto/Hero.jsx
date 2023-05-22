@@ -26,7 +26,6 @@ export const Hero = () => {
                             Autem, dolore reprehenderit eos deserunt ab laboriosam quisquam suscipit dolor repudiandae cum doloremque nostrum et facilis,
                             sit nisi quae earum voluptate eligendi.
                         </motion.span>
-                        \
                     </div>
                 </div>
             </div>
