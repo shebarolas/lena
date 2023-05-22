@@ -5,6 +5,7 @@ import { MapBox } from '../components/Home/MapBox'
 import { CardsH } from '../components/Home/CardsH'
 import { Footer } from '../components/Footer'
 import { Formulario } from '../components/Contacto/Formulario'
+import '../styles/contacto.css'
 
 export const Contacto = () => {
   return (
@@ -13,7 +14,7 @@ export const Contacto = () => {
         <Hero/>
         <div className="contacto">
         <div className="todo">
-          <h1 className="heading pad">Contacto</h1>
+          <h1 className="heading pad">Forma de contacto</h1>
           <div className="map">
             <div className="cards">
               <CardsH />

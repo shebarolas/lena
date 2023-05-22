@@ -24,7 +24,7 @@ export const CardsH = () => {
                         </Text>
                     </CardBody>
                         <Button variant='solid' colorScheme='green' className='btnss'>
-                            <a href="https://api.whatsapp.com/send?phone=971056940">WhatsApp</a>
+                            <a href="https://api.whatsapp.com/send?phone=964478130">WhatsApp</a>
                         </Button>
                 </Stack>
             </Card>
