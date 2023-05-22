@@ -3,6 +3,7 @@ import { Card, CardBody, CardFooter, Stack, ButtonGroup, Button, Text, Image, He
 import '../../styles/cards.css'
 import lena4 from '../../imgs/leña4.jpg'
 import { Modals } from './Modals'
+import { Menus } from './Menus'
 export const Cards = () => {
   return (
     <>
@@ -19,6 +20,7 @@ export const Cards = () => {
                   <Text>
                     Leña de madera nativa en saco 
                   </Text>
+                  <Menus/>
                 </Stack>
               </CardBody>
               <CardFooter className="grid">

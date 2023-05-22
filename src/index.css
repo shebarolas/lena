@@ -9,3 +9,11 @@ body{
     display: grid !important;
     place-items: center !important;
 }
+.css-1ge77ij{
+    width: 10rem !important;
+}
+.css-n21gh5{
+    display: grid !important;
+    grid-template-rows: 4 1fr !important;
+    place-items: center !important;
+}

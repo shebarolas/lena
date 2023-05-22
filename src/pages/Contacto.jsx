@@ -1,7 +1,12 @@
 import React from 'react'
+import { SlideBar } from '../components/SlideBar'
+import { Hero } from '../components/Contacto/Hero'
 
 export const Contacto = () => {
   return (
-    <div>Contacto</div>
+    <div className='contacto'>
+        <SlideBar/>
+        <Hero/>
+    </div>
   )
 }

@@ -7,6 +7,7 @@ import { Cards } from '../components/Home/Cards'
 import { Footer } from '../components/Footer'
 import { Video } from '../components/Home/Video'
 import { MapBox } from '../components/Home/MapBox'
+import { CardsH } from '../components/Home/CardsH'
 
 export const Home = () => {
   return (
@@ -17,9 +18,9 @@ export const Home = () => {
         <div className="informacion">
           <h1 className="heading">Nuestros Productos</h1>
           <div className="general">
-            <Cards/>
-            <Cards/>
-            <Cards/>
+            <Cards />
+            <Cards />
+            <Cards />
           </div>
         </div>
       </div>
@@ -28,12 +29,12 @@ export const Home = () => {
           <h1 className='somos'>¿Quienes Somos?</h1>
           <div className="texVideo">
             <span className='text'>
-            El fuego es utilizado en ceremonias y rituales tradicionales mapuches, como el Ngillatun, 
-            donde se encienden fogatas como una forma de conexión con los ancestros y los espíritus de la naturaleza. 
-            También se cree que el fuego tiene poderes purificadores y curativos.
-            Además, el fuego es utilizado en la cocina tradicional mapuche para preparar alimentos y como un lugar de reunión comunitaria.
+              El fuego es utilizado en ceremonias y rituales tradicionales mapuches, como el Ngillatun,
+              donde se encienden fogatas como una forma de conexión con los ancestros y los espíritus de la naturaleza.
+              También se cree que el fuego tiene poderes purificadores y curativos.
+              Además, el fuego es utilizado en la cocina tradicional mapuche para preparar alimentos y como un lugar de reunión comunitaria.
             </span>
-            <Video/>
+            <Video />
           </div>
         </div>
       </div>
@@ -41,13 +42,15 @@ export const Home = () => {
         <div className="todo">
           <h1 className="heading pad">Contacto</h1>
           <div className="map">
-                <span className="tex">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eligendi eos odio officia ipsam dicta iusto, 
-                  enim quos reprehenderit ea delectus vero id beatae explicabo aperiam reiciendis quo sequi velit!</span>
-                <MapBox/>
+            <div className="cards">
+              <CardsH />
+              <CardsH />
+            </div>
+            <MapBox />
           </div>
-        </div>    
+        </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
