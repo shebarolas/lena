@@ -22,9 +22,8 @@ export const Hero = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 3 }}
                         >
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Autem, dolore reprehenderit eos deserunt ab laboriosam quisquam suscipit dolor repudiandae cum doloremque nostrum et facilis,
-                            sit nisi quae earum voluptate eligendi.
+                            "Ñamku rakizuam mew, mapu ñi rakizuam mew, taiñ mapuche küme ngillatun mew, taiñ pu che ruka mew, ngillatun mew,
+                             fücha mew, küme ta kimeltuwün, küme ta pu peñi küme peñi küme amuwün, küme ta rakizuam, mewñün ta wüñoy puel mapu mew"
                         </motion.span>
                         \
                     </div>
