@@ -21,8 +21,7 @@ export const Hero = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 3 }}
                         >
-                            "Ñamku rakizuam mew, mapu ñi rakizuam mew, taiñ mapuche küme ngillatun mew, taiñ pu che ruka mew, ngillatun mew,
-                             fücha mew, küme ta kimeltuwün, küme ta pu peñi küme peñi küme amuwün, küme ta rakizuam, mewñün ta wüñoy puel mapu mew"
+                           "Calor ancestral, Nueva Imperial IX Región de la Araucannia"
                         </motion.span>
                         
                     </div>

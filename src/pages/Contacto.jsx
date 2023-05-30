@@ -9,12 +9,12 @@ import '../styles/contacto.css'
 
 export const Contacto = () => {
   return (
-    <div className='contacto'>
+    <div className='ss'>
         <SlideBar/>
         <Hero/>
-        <div className="contacto">
+        <div className="contactoss">
         <div className="todo">
-          <h1 className="heading pad">Forma de contacto</h1>
+          <h1 className="heading pad">Contacto</h1>
           <div className="map">
             <div className="cards">
               <CardsH />

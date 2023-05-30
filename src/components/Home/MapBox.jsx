@@ -8,8 +8,8 @@ export const MapBox = () => {
         <>
             <Map
                 initialViewState={{
-                    longitude: -122.4,
-                    latitude: 37.8,
+                    longitude: -72.923011,
+                    latitude:  -38.706584,
                     zoom: 14
                 }}
                 style={{ width: 500, height: 300}}

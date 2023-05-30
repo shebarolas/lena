@@ -27,9 +27,8 @@ export const Modals = () => {
                     <ModalHeader>Leña en Saco</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia perspiciatis sint.
-                        Sunt aperiam repudiandae dolores! Hic iusto eum numquam! Molestias reiciendis et incidunt
-                        vero quasi corporis veritatis sunt? Deleniti.
+                        Puede ir información mas detallada sobre como hacen las leña, como se troza, envuleve, etc.
+                        Además de poner videos informativos si ese fuera el caso.
                     </ModalBody>
                     <ModalFooter>
                         <Button colorScheme='blue' mr={3} onClick={onClose}>

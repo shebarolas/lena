@@ -1,4 +1,13 @@
-.pad{
-    color: white;
-    padding: 1rem 0rem;
+
+.todo{
+    display: grid;
+    grid-template-rows: 5rem 1fr;
+    width: 60rem;
+}
+.contacto{
+    background-color: gray;
+    height: 45rem;
+    width: 100%;
+    display: grid;
+    justify-items: center;
 }

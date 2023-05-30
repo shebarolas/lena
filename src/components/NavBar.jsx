@@ -17,10 +17,10 @@ export const NavBar = () => {
                         <div className="logo">
                             <img src={logo} alt="" className="imgs" />
                         </div>
-                        <div className="optionss">
-                            <Link to={'/nosotros'}><span className='texto'>Nosotros</span></Link>
+                        <div className="options">
+                            <Link to={'/nosotros'}><span className='texto hei'>¿Quienes Somos?</span></Link>
                             <Link to={'/contacto'}><span className='texto'>Contacto</span></Link>
-                            <DrawBar />
+                            {/* <DrawBar /> */}
                         </div>
                     </div>
                 </div>

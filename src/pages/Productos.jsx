@@ -13,7 +13,7 @@ export const Productos = () => {
       <div className="product">
         <div className="prod">
           <div className="textPro">
-            <h1 className='texP'>Productos</h1>
+            <h1 className='heading'>Productos</h1>
           </div>
           <div className="cardss">
             <Cards/>

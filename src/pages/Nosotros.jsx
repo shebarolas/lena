@@ -15,10 +15,11 @@ export const Nosotros = () => {
           <h1 className='somos'>¿Quienes Somos?</h1>
           <div className="texVideo">
             <span className='text'>
-              El fuego es utilizado en ceremonias y rituales tradicionales mapuches, como el Ngillatun,
-              donde se encienden fogatas como una forma de conexión con los ancestros y los espíritus de la naturaleza.
-              También se cree que el fuego tiene poderes purificadores y curativos.
-              Además, el fuego es utilizado en la cocina tradicional mapuche para preparar alimentos y como un lugar de reunión comunitaria.
+            Kume Kutral es una frase que en mapuzungun significa 'BUEN FUEGO'.
+              La inmensa gratitud que sentimos hacia el publo mapuche y sus riquezas,
+              inspiran que esta marca tenga su sello.
+              La leña que trozamos para envasar en sacos, busca entregar calor limpio y de calidad
+              además de ser una opción práctica para el uso cotidiano eb cocinas, combustiobes, etc.
             </span>
             <Video />
           </div>

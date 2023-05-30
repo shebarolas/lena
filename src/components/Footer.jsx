@@ -8,11 +8,11 @@ export const Footer = () => {
     <div className="footer">
       <div className="informacions">
         <img src={logo} alt="" className='fotLogo' />
-        <span>@ Direccion: Calle 777 Temuco</span>
+        <span>@ Direccion Fundo Santa Orfelia</span>
         <span>@ Telefono: +5691234567</span>
       </div>
       <div className="logos">
-        <FaFacebook size={30} />
+        <a href="https://www.facebook.com/profile.php?id=100093055598485"><FaFacebook size={30}/></a>
         <FaTwitter size={30} />
         <FaInstagram size={30} />
       </div>

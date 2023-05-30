@@ -18,7 +18,7 @@ export const Cards = () => {
                 <Stack mt='6' spacing='3'>
                   <Heading size='md'>Leña en saco</Heading>
                   <Text>
-                    Leña de madera nativa en saco 
+                    Leña de eucaliptus seca, trozada, picada y envasada en formatos de metro cubico
                   </Text>
                   <Menus/>
                 </Stack>
