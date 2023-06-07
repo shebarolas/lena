@@ -19,7 +19,7 @@ export const Nosotros = () => {
               La inmensa gratitud que sentimos hacia el publo mapuche y sus riquezas,
               inspiran que esta marca tenga su sello.
               La leña que trozamos para envasar en sacos, busca entregar calor limpio y de calidad
-              además de ser una opción práctica para el uso cotidiano eb cocinas, combustiobes, etc.
+              además de ser una opción práctica para el uso cotidiano en cocinas, combustiones, etc.
             </span>
             <Video />
           </div>
