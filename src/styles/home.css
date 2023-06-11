@@ -51,6 +51,7 @@
     place-items: center;
 }
 .somos{
+    padding-top: 2rem;
     position: relative;
     font-size: 2rem;
     color: white;
@@ -63,6 +64,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
+}
+.pad{
+    padding-top: 2rem;
 }
 .contacto{
     position: relative;
