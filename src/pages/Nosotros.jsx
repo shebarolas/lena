@@ -12,7 +12,7 @@ export const Nosotros = () => {
       <Hero />
       <div className="detalles">
         <div className="infor">
-          <h1 className='somos'>¿Quienes Somos?</h1>
+          <h1 className='somoss'>¿Quienes Somos?</h1>
           <div className="texVideo">
             <span className='text'>
             Kume Kutral es una frase que en mapuzungun significa 'BUEN FUEGO'.
