@@ -22,7 +22,7 @@ export const Hero = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 3 }}
                         >
-                            "Calor ancestral, Nueva Imperial IX Región de la Araucannia"
+                            "Calor ancestral, Nueva Imperial IX Región de la Araucania"
                         </motion.span>
                         \
                     </div>
